@@ -1,0 +1,21 @@
+{
+  "name": "flash-marmoraria",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.28.0",
+  "dependencies": {
+    "body-parser": "^2.2.2",
+    "cors": "^2.8.5",
+    "express": "^5.2.1",
+    "lodash": "^4.17.21",
+    "lowdb": "1.0.0",
+    "sqlite3": "^5.1.7"
+  }
+}
