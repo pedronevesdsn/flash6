@@ -3,7 +3,7 @@
   "version": 2,
   "builds": [
     {
-      "src": "public/index.html", // Seu arquivo de entrada principal
+      "src": "server.js", // Seu arquivo de entrada principal
       "use": "@vercel/node",
       "config": { "runtime": "nodejs18.x" } // Versão do Node.js
     }
@@ -11,7 +11,7 @@
   "routes": [
     {
       "src": "/(.*)", // Roteia todas as requisições
-      "dest": "public/index.html" // Para o seu arquivo de entrada
+      "dest": "server.js" // Para o seu arquivo de entrada
     }
   ]
 }
